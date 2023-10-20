@@ -1,0 +1,156 @@
+body{
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(thumb.png);
+    background-size: cover;
+}
+
+section{
+    background-color:transparent;
+    width: 700px;
+    height: 500px;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.container{
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+footer{
+    background-color: transparent;
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.logo{
+    width: 100px;
+    height: 90%;
+}
+
+#logo2{
+    width: 140px;
+    height: 120px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+nav{
+    background-color: transparent;
+    width: 550px;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li{
+    text-transform: uppercase;
+    background-color:rgba(93, 11, 11, 0.422);
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    border: 5px solid rgb(46, 4, 4);
+    border-radius: 30px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.direita, .esquerda{
+    height: 90%;
+    width: 300px;
+    background-color:rgba(0, 0, 0, 0.552);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    width: 90%;
+    height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#player{
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;
+}
+
+.anonimo{
+    background-color: rgb(14, 19, 182);
+    height: 30px;
+    border-radius: 5px;
+    color: aliceblue;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: -180px;
+    margin-top: -50px;
+}
+.anonimo:hover{
+    background-color: rgb(98, 41, 151);
+    color: antiquewhite;
+    border: 1px solid antiquewhite;
+    cursor: pointer;
+}
+
+.anonimo2{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.subtitle{
+    color: aliceblue;
+    margin-left: 4px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.subtitle2{
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: -1px;
+}
+
+video{
+    width: 200px;
+    border-radius: 540px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+#stop{
+    width: 200px;
+}
